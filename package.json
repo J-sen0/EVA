@@ -1,0 +1,15 @@
+{
+  "name": "dsh-eva",
+  "version": "0.1.0",
+  "description": "Give your DeepSeek Harness agent a stable persona and an on-demand skill library.",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "keywords": ["dsh-plugin", "deepseek-harness", "persona", "skills", "agent"],
+  "engines": { "dsh": ">=0.2.1-rc.2 <0.3.0-0" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "scripts": {
+    "index": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/make-index.ps1"
+  },
+  "files": ["cordis.patch.yml", "skills", "scripts", "personas", "docs", "README.md", "LICENSE"]
+}

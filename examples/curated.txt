@@ -1,0 +1,9 @@
+# 精选技能清单示例：每行一个技能目录名，# 开头是注释。
+# 用法：.\scripts\install.ps1 -SkillsPack <你的技能包> -IncludeFile examples\curated.txt
+#
+# 目录名 = 技能包里那个文件夹的名字。填你实际有的，不存在的会被跳过并提示。
+# 只挂这些，其余技能仍然可用——靠索引按需读取，不需要安装。
+#
+example-reverse
+example-report
+example-browser

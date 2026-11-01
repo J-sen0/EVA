@@ -1,0 +1,5 @@
+# 由 scripts/install.ps1 生成，含本机绝对路径，不要提交
+cordis.patch.yml
+node_modules/
+*.log
+.DS_Store
