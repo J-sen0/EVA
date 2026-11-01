@@ -41,7 +41,7 @@ $ dsh
 **前置**：Node 22+、已安装 `dsh`、有一个带 `SKILL.md` 的技能包目录。
 
 ```powershell
-git clone https://github.com/<you>/EVA.git
+git clone https://github.com/J-sen0/EVA.git
 cd EVA
 
 # 1. 生成技能视图 + 人格补丁（把路径换成你自己的技能包）

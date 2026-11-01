@@ -15,7 +15,7 @@ Installing it changes exactly two config rows and creates one directory. Uninsta
 ## Quick start
 
 ```powershell
-git clone https://github.com/<you>/EVA.git
+git clone https://github.com/J-sen0/EVA.git
 cd EVA
 
 .\scripts\install.ps1 -SkillsPack C:\path\to\skills-pack -Persona eva
